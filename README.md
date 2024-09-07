@@ -145,7 +145,9 @@ We can incorporate malware analysis capabilities into this project to detect, an
 This project is licensed under the MIT . See the <a href="https://github.com/Khyati-33/Virtual-Machine-Inspecter/blob/main/LICENSE">LICENSE</a> file for more details.
 
 <h2>Contact</h2>
-For any questions or issues, please contact:<br>
-- <b>Khyati Sharma</b> - [<a href="https://github.com/Khyati-33"></a>] <br>
-- Maseera Fatima - [<a href="https://github.com/mfatima05"></a>]
+For any questions or issues, please contact:
+
+- <h5>Khyati Sharma</h5> - [<a href="https://github.com/Khyati-33">] 
+
+- <h5>Maseera Fatima</h5>- [<a href="https://github.com/mfatima05">]
 
