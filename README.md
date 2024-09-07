@@ -4,16 +4,27 @@ This project provides a comprehensive Virtual Machine Introspection (VMI) tool, 
 <h2>Features</h2>
 
 •	VM Information: Get core VM information, including CPU, memory, uptime, and processes.<br>
+
 •	Memory Analysis: Monitor memory usage over time.<br>
+
 •	Network Monitoring: Analyze active connections and network statistics.<br>
+
 •	Process Monitoring: Monitor and analyze running processes in the VM.<br>
+
 •	File System Monitoring: Check disk usage and file statistics.<br>
+
 •	CPU Monitoring: Track CPU usage across multiple cores.<br>
+
 •	Anomaly Detection: Detect unusual patterns in resource usage (CPU, memory).<br>
+
 •	Snapshot Management: Take snapshots of the VM and restore them if needed.<br>
+
 •	Logging: Log all activity for auditing purposes.<br>
+
 •	Malware Analysis: Scan files and directories for malware using ClamAV.<br>
+
 •	GUI and CLI Interface: Use either a command-line interface or a graphical user interface for interaction.<br>
+
 
 <h2>Project Structure</h2>
 
@@ -137,7 +148,7 @@ Snapshot Management Example
 <h3>Running the Tool</h3>
 ```bash
 python3 main.py -h
- ```
+  ```
 <h2>Contributing</h2>
 
 If you wish to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
