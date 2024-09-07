@@ -3,17 +3,17 @@ This project provides a comprehensive Virtual Machine Introspection (VMI) tool, 
 
 <h2>Features</h2>
 
-•	VM Information: Get core VM information, including CPU, memory, uptime, and processes.
-•	Memory Analysis: Monitor memory usage over time.
-•	Network Monitoring: Analyze active connections and network statistics.
-•	Process Monitoring: Monitor and analyze running processes in the VM.
-•	File System Monitoring: Check disk usage and file statistics.
-•	CPU Monitoring: Track CPU usage across multiple cores.
-•	Anomaly Detection: Detect unusual patterns in resource usage (CPU, memory).
-•	Snapshot Management: Take snapshots of the VM and restore them if needed.
-•	Logging: Log all activity for auditing purposes.
-•	Malware Analysis: Scan files and directories for malware using ClamAV.
-•	GUI and CLI Interface: Use either a command-line interface or a graphical user interface for interaction.
+•	VM Information: Get core VM information, including CPU, memory, uptime, and processes.<br>
+•	Memory Analysis: Monitor memory usage over time.<br>
+•	Network Monitoring: Analyze active connections and network statistics.<br>
+•	Process Monitoring: Monitor and analyze running processes in the VM.<br>
+•	File System Monitoring: Check disk usage and file statistics.<br>
+•	CPU Monitoring: Track CPU usage across multiple cores.<br>
+•	Anomaly Detection: Detect unusual patterns in resource usage (CPU, memory).<br>
+•	Snapshot Management: Take snapshots of the VM and restore them if needed.<br>
+•	Logging: Log all activity for auditing purposes.<br>
+•	Malware Analysis: Scan files and directories for malware using ClamAV.<br>
+•	GUI and CLI Interface: Use either a command-line interface or a graphical user interface for interaction.<br>
 
 <h2>Project Structure</h2>
 
@@ -52,7 +52,7 @@ vmi_tool/
 
 <h2>Prerequisites</h2>
 
-•	Python 3.8 or higher
+•	Python 3.8 or higher <br>
 •	Required Python Libraries:
 -	psutil
 -	pyclamd (for malware analysis)
@@ -61,29 +61,10 @@ vmi_tool/
 
 <h2>Installation</h2>
 
-• ClamAV Installation (for Malware Analysis)
-
-- Install ClamAV:
-  - On Linux: `sudo apt install clamav clamav-daemon`
-  - On Windows: [Download ClamAV](https://www.clamav.net/downloadsotherversions)
-  
-- Configure ClamAV: Ensure that ClamAV is configured to listen on TCP/IP.
-  Edit the ClamAV configuration file (`clamd.conf`) and add:
-  TCPSocket 3310
-  TCPAddr 127.0.0.1
-
-- Restart ClamAV:
-  - On Linux: `sudo systemctl restart clamav-daemon`
-  - On Windows: Start the ClamAV service manually after installation.
-
 • Install Python Dependencies
- 
 ```bash
 pip install psutil pyclamd pywinrm tkinter
 ```
- -Usage
-You can use this tool either via CLI or the GUI interface.
-
 Run the tool with various actions using the following commands:
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
@@ -126,12 +107,11 @@ python main.py --vm <vm_name> --action <action> [--options]
   ```bash
   python main.py --vm <vm_name> --action malware-analysis --directory <directory_path>
   ```
-• Command Line Interface (CLI)
+• Command Line Interface (CLI) <br>
 Run the tool with various actions using the following commands:
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
 ```
-
 • Graphical User Interface (GUI)
 To launch the tool in GUI mode, use:
 ```bash
@@ -154,13 +134,16 @@ Snapshot Management Example
   python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation delete
   ```
 
-<h3>Running the Tool
+<h3>Running the Tool</h3>
 ```bash
 python3 main.py -h
  ```
 <h2>Contributing</h2>
 
 If you wish to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
+
+<h2>Futute Scope</h2>
+We can incorporate malware analysis capabilities into this project to detect, analyze, and respond to malicious software more effectively. This could include adding automated tools for malware scanning, behavioral analysis, and threat intelligence integration to enhance overall security.
 
 <h2>License</h2>
 
