@@ -63,7 +63,7 @@ vmi_tool/
 
 <h2>Prerequisites</h2>
 
-	Python 3.8 or higher <br>
+ Python 3.8 or higher 
  Required Python Libraries:
 -	psutil
 -	pyclamd (for malware analysis)
@@ -120,21 +120,20 @@ python main.py --vm <vm_name> --action <action> [--options]
   ```
 - Command Line Interface (CLI):
   
-Run the tool with various actions using the following commands: 
+  Run the tool with various actions using the following commands: 
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
 ```
 - Graphical User Interface (GUI):
   
-To launch the tool in GUI mode, use:
+  To launch the tool in GUI mode, use:
 ```bash
 python main.py --gui
 ```
 
 <h3>Running the Tool</h3>
-```bash
 python3 main.py -h
- ```
+
 <h2>Contributing</h2>
 
 If you wish to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
