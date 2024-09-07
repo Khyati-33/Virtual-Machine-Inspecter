@@ -118,17 +118,17 @@ python main.py --vm <vm_name> --action <action> [--options]
   ```bash
   python main.py --vm <vm_name> --action malware-analysis --directory <directory_path>
   ```
-• Command Line Interface (CLI) <br>
+- Command Line Interface (CLI) <br>
 Run the tool with various actions using the following commands:
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
 ```
-• Graphical User Interface (GUI)
+- Graphical User Interface (GUI) <br>
 To launch the tool in GUI mode, use:
 ```bash
 python main.py --gui
 ```
-Snapshot Management Example
+Snapshot Management Example:
 
 - Create a Snapshot:
   ```bash
@@ -148,7 +148,7 @@ Snapshot Management Example
 <h3>Running the Tool</h3>
 ```bash
 python3 main.py -h
-  ```
+ ```
 <h2>Contributing</h2>
 
 If you wish to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
