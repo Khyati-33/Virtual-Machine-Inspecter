@@ -120,15 +120,15 @@ python main.py --vm <vm_name> --action <action> [--options]
 - Command Line Interface (CLI):
   
   Run the tool with various actions using the following commands: 
-```bash
-python main.py --vm <vm_name> --action <action> [--options]
-```
+  ```bash
+  python main.py --vm <vm_name> --action <action> [--options]
+  ```
 - Graphical User Interface (GUI):
   
   To launch the tool in GUI mode, use:
-```bash
-python main.py --gui
-```
+  ```bash
+  python main.py --gui
+  ```
 
 <h3>Running the Tool</h3>
 python3 main.py -h
