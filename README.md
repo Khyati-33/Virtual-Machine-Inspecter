@@ -63,8 +63,8 @@ vmi_tool/
 
 <h2>Prerequisites</h2>
 
-•	Python 3.8 or higher <br>
-•	Required Python Libraries:
+	Python 3.8 or higher <br>
+ Required Python Libraries:
 -	psutil
 -	pyclamd (for malware analysis)
 -	tkinter (for GUI)
@@ -72,7 +72,7 @@ vmi_tool/
 
 <h2>Installation</h2>
 
-• Install Python Dependencies
+Install Python Dependencies
 ```bash
 pip install psutil pyclamd pywinrm tkinter
 ```
@@ -118,32 +118,18 @@ python main.py --vm <vm_name> --action <action> [--options]
   ```bash
   python main.py --vm <vm_name> --action malware-analysis --directory <directory_path>
   ```
-- Command Line Interface (CLI) <br>
-Run the tool with various actions using the following commands:
+- Command Line Interface (CLI):
+  
+Run the tool with various actions using the following commands: 
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
 ```
-- Graphical User Interface (GUI) <br>
+- Graphical User Interface (GUI):
+  
 To launch the tool in GUI mode, use:
 ```bash
 python main.py --gui
 ```
-Snapshot Management Example:
-
-- Create a Snapshot:
-  ```bash
-  python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation create
-  ```
-
-- Restore a Snapshot:
-  ```bash
-  python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation restore
-  ```
-
-- Delete a Snapshot:
-  ```bash
-  python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation delete
-  ```
 
 <h3>Running the Tool</h3>
 ```bash
