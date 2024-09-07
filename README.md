@@ -148,6 +148,5 @@ This project is licensed under the MIT . See the <a href="https://github.com/Khy
 For any questions or issues, please contact:
 
 **Khyati Sharma** - \[ https://github.com/Khyati-33 ]
-
-- <h5>Maseera Fatima</h5> - \[https://github.com/mfatima05]
+**Maseera Fatima** - \[https://github.com/mfatima05]
 
