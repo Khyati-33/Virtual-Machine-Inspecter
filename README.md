@@ -1,7 +1,7 @@
 <h1>VMI Tool - Virtual Machine Introspection for Security Monitoring</h1>
 This project provides a comprehensive Virtual Machine Introspection (VMI) tool, built using Python, to monitor, analyze, and ensure the security of virtual machines. The tool supports monitoring various aspects of VM health and performance, such as CPU, memory, processes, file system, network, and detecting potential anomalies and malware. The tool can also take snapshots and alert on security breaches.
 
-<h2>Features</h2>h2>
+<h2>Features</h2>
 
 •	VM Information: Get core VM information, including CPU, memory, uptime, and processes.
 •	Memory Analysis: Monitor memory usage over time.
