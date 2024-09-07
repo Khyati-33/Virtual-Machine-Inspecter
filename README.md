@@ -63,8 +63,8 @@ vmi_tool/
 
 <h2>Prerequisites</h2>
 
- Python 3.8 or higher 
- Required Python Libraries:
+- Python 3.8 or higher 
+- Required Python Libraries:
 -	psutil
 -	pyclamd (for malware analysis)
 -	tkinter (for GUI)
