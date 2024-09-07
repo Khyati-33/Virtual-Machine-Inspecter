@@ -1,22 +1,23 @@
-<h1>VMI Tool - Virtual Machine Introspection for Security Monitoring</h1>h1>
+<h1>VMI Tool - Virtual Machine Introspection for Security Monitoring</h1>
 This project provides a comprehensive Virtual Machine Introspection (VMI) tool, built using Python, to monitor, analyze, and ensure the security of virtual machines. The tool supports monitoring various aspects of VM health and performance, such as CPU, memory, processes, file system, network, and detecting potential anomalies and malware. The tool can also take snapshots and alert on security breaches.
 
-##Features
+<h2>Features</h2>h2>
 
- -VM Information: Get core VM information, including CPU, memory, uptime, and processes.
-- Memory Analysis: Monitor memory usage over time.
-- Network Monitoring: Analyze active connections and network statistics.
-- Process Monitoring: Monitor and analyze running processes in the VM.
-- File System Monitoring: Check disk usage and file statistics.
-- CPU Monitoring: Track CPU usage across multiple cores.
-- Anomaly Detection: Detect unusual patterns in resource usage (CPU, memory).
-- Snapshot Management: Take snapshots of the VM and restore them if needed.
-- Logging: Log all activity for auditing purposes.
-- Malware Analysis: Scan files and directories for malware using ClamAV.
-- GUI and CLI Interface: Use either a command-line interface or a graphical user interface for interaction.
+•	VM Information: Get core VM information, including CPU, memory, uptime, and processes.
+•	Memory Analysis: Monitor memory usage over time.
+•	Network Monitoring: Analyze active connections and network statistics.
+•	Process Monitoring: Monitor and analyze running processes in the VM.
+•	File System Monitoring: Check disk usage and file statistics.
+•	CPU Monitoring: Track CPU usage across multiple cores.
+•	Anomaly Detection: Detect unusual patterns in resource usage (CPU, memory).
+•	Snapshot Management: Take snapshots of the VM and restore them if needed.
+•	Logging: Log all activity for auditing purposes.
+•	Malware Analysis: Scan files and directories for malware using ClamAV.
+•	GUI and CLI Interface: Use either a command-line interface or a graphical user interface for interaction.
 
-##Project Structure
+<h2>Project Structure</h2>
 
+```bash
 vmi_tool/
 │
 ├── anomaly_detection/
@@ -47,8 +48,9 @@ vmi_tool/
 │   └── utils.py
 ├── main.py
 └── README.md
+```
 
-##Prerequisites
+<h2>Prerequisites</h2>
 
 •	Python 3.8 or higher
 •	Required Python Libraries:
@@ -57,7 +59,7 @@ vmi_tool/
 -	tkinter (for GUI)
 -	pywinrm (for Windows Remote Management)
 
-##Installation
+<h2>Installation</h2>
 
 • ClamAV Installation (for Malware Analysis)
 
@@ -74,7 +76,7 @@ vmi_tool/
   - On Linux: `sudo systemctl restart clamav-daemon`
   - On Windows: Start the ClamAV service manually after installation.
 
- -Install Python Dependencies
+• Install Python Dependencies
  
 ```bash
 pip install psutil pyclamd pywinrm tkinter
@@ -82,13 +84,11 @@ pip install psutil pyclamd pywinrm tkinter
  -Usage
 You can use this tool either via CLI or the GUI interface.
 
-Command Line Interface (CLI)
-
 Run the tool with various actions using the following commands:
 ```bash
 python main.py --vm <vm_name> --action <action> [--options]
 ```
- ####Available Actions
+ <h3>Available Actions</h3>
  
 - Show VM Info:
   ```bash
@@ -98,51 +98,46 @@ python main.py --vm <vm_name> --action <action> [--options]
   ```bash
   python main.py --vm <vm_name> --action memory
   ```
-
 - Network Monitoring:
   ```bash
   python main.py --vm <vm_name> --action network
   ```
-
 - Process Monitoring:
   ```bash
   python main.py --vm <vm_name> --action processes
   ```
-
 - File System Monitoring:
   ```bash
   python main.py --vm <vm_name> --action filesystem
   ```
-
 - CPU Monitoring:
   ```bash
   python main.py --vm <vm_name> --action cpu
   ```
-
 - Anomaly Detection:
   ```bash
   python main.py --vm <vm_name> --action anomaly
   ```
-
 - Snapshot Management:
   ```bash
   python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation [create|restore|delete]
   ```
-
 - Malware Analysis:
   ```bash
   python main.py --vm <vm_name> --action malware-analysis --directory <directory_path>
   ```
+• Command Line Interface (CLI)
+Run the tool with various actions using the following commands:
+```bash
+python main.py --vm <vm_name> --action <action> [--options]
+```
 
- Graphical User Interface (GUI)
-
+• Graphical User Interface (GUI)
 To launch the tool in GUI mode, use:
-
 ```bash
 python main.py --gui
 ```
-
- Snapshot Management Example
+Snapshot Management Example
 
 - Create a Snapshot:
   ```bash
@@ -159,15 +154,15 @@ python main.py --gui
   python main.py --vm <vm_name> --action snapshot --snapshot <snapshot_name> --operation delete
   ```
 
-####Running the Tool
+<h3>Running the Tool
 ```bash
 python3 main.py -h
  ```
-##Contributing
+<h2>Contributing</h2>
 
 If you wish to contribute, feel free to fork this repository, create a new branch, and submit a pull request.
 
-##License
+<h2>License</h2>
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
